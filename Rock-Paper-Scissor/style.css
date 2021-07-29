@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #25272E;
+    color: #fff;
+    font-family: Asap,
+        sans-serif;
+}
+
+header {
+    background: #fff;
+    padding: 25px;
+}
+
+header h1 {
+    color: #25272E;
+    text-align: center;
+    font-size: 36px;
+}
+
+.choice img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.score-board {
+    border: 3px solid #fff;
+    width: 250px;
+    text-align: center;
+    margin: 30px auto;
+    border-radius: 8px;
+    padding: 30px 50px;
+    position: relative;
+}
+
+.badge {
+    background: #E2584D;
+    font-size: 15px;
+    padding: 5px 12px;
+    border-radius: 3px;
+    position: absolute;
+    top: 34px;
+}
+
+#user-label {
+    left: -25px;
+
+}
+
+#computer-label {
+    right: -26px;
+}
+
+#userScore,
+#computerScore,
+.semi {
+    font-size: 40px;
+}
+
+.result {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.choices {
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 20px;
+}
+
+.choice {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+
+.green-glow {
+    border: 3px solid rgb(0, 128, 0);
+    box-shadow: 0 0 10px 3px rgb(49, 180, 58);
+}
+
+.red-glow {
+    border: 3px solid rgb(255, 0, 0);
+    box-shadow: 0 0 10px 3px rgb(208, 17, 20);
+}
+
+.yellow-glow {
+    border: 3px solid rgb(255, 255, 0);
+    box-shadow: 0 0 10px 3px rgb(172, 182, 42);
+}
+
+.choice:hover {
+    background: rgb(63, 63, 63);
+    cursor: pointer;
+}
+
+.action-move {
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
